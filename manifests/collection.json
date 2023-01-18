@@ -1,0 +1,13 @@
+{
+  "id" : "https://leaprs.github.io/test-nubis-cantaloup/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in leaprs/test-nubis-cantaloup project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://leaprs.github.io/test-nubis-cantaloup/manifests/manifest.json",
+    "label" : "testounet"
+  } ]
+}
