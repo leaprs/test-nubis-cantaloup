@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://leaprs.github.io/test-nubis-cantaloup/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "testounet",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://d89a61eb-2c13-454a-aa5b-09f4a789a7ce",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://1d455f3e-20da-4204-987f-71a36ec6c1a5",
+      "@type" : "sc:Canvas",
+      "label" : "23",
+      "height" : 4695,
+      "width" : 3248,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bc233561-e408-42a0-814b-ed6e5b5cc47b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_mzgf%2FBIS_10_0012_0001.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_mzgf%2FBIS_10_0012_0001.jpg",
+            "profile" : "level2"
+          },
+          "height" : 4695,
+          "width" : 3248
+        },
+        "on" : "http://1d455f3e-20da-4204-987f-71a36ec6c1a5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ddcc0711-65be-4ae6-9ab6-48e912fdc9fe",
+      "@type" : "sc:Canvas",
+      "label" : "1",
+      "height" : 4736,
+      "width" : 3248,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e80a5d5f-535a-4ee2-b13d-bbd11277010d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_mzgf%2FBIS_10_0012_0002.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://nubis-iiif.bis-sorbonne.fr/iiif/3/ark_15733_kzzj%2Fark_15733_mzgf%2FBIS_10_0012_0002.jpg",
+            "profile" : "level2"
+          },
+          "height" : 4736,
+          "width" : 3248
+        },
+        "on" : "http://ddcc0711-65be-4ae6-9ab6-48e912fdc9fe"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
